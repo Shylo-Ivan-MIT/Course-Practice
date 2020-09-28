@@ -1,0 +1,86 @@
+body {
+	text-align: center;
+	font-family: "Century Gothic", sans-serif;
+}
+.page {
+	width: 500px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.job {
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: lightskyblue;
+}
+.job:before,
+.job:after {
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: lightskyblue;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+.job:after {
+	left: 400px;
+}
+.container {
+	display: flex;
+	height: 100px;
+	margin-top: 50px;
+}
+.article {
+	text-align: left;
+	width: 75%;
+}
+.aside {
+	background-color: lightskyblue;
+	text-align: left;
+	width: 25%;
+	height: 100%;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.article__inner {
+	display: flex;
+	margin-top: 15px;
+}
+.left {
+	color: lightskyblue;
+	font-size: 9px;
+}
+.right {
+	margin-left: 15px;
+}
+.head {
+	font-size: 11px;
+	font-weight: 700;
+}
+.sub {
+	font-size: 11px;
+	color: #aaa;
+}
+.text {
+	font-size: 9px;
+}
+.heading--2 {
+	margin-top: 20px;
+}
+.aside {
+	padding: 3px;
+	height: 560px;
+}
+.aside__item .sub{
+	font-weight: 700;
+	color: #000;
+}
+.sub--2 {
+	margin-top: 10px;
+}
